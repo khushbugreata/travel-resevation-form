@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form </title>
+</head>
+<body>
+   <h2> Travel reservation form </h2> 
+   <h3>*denotes mendotory </h3>
+   <form>
+    Full Name: * <br><input type = "text" placeholder="Full_Name"><br>
+    Email Address :*<br>  <input type ="email" placeholder="Email_Address"><br>
+    Phone Number:*<br>   <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-789">
+  <br>
+    Select Tour package*:<br><select name="country" id="country">
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Japan">Japan</option>
+   </select>
+   <br>
+   Date of travel*:<br> <input type="date" >
+   <br>
+   what would you want to avail?*<br>Boarding<input type="checkbox" id="boarding">
+   Fooding<input type="checkbox" id="boarding">
+   Sight Seeing<input type="checkbox" id="boarding">
+   Terms and Condition*<br>
+   <input type="radio" id="agree">
+   <label for="agree">I agree</label>
+   <input type="radio" id="disagree">
+   <label for="disagree">I disagree</label>
+   <br>
+   <button>complete reservation</button>
+   </form>
+</body>
+</html>
